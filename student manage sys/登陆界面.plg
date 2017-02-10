@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 登陆界面 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/登陆界面.res" /d "NDEBUG" /d "_AFXDLL" "D:\TUT\C\学生管理系统V4\登陆界面.rc"" 
+Creating temporary file "C:\Users\zxw\AppData\Local\Temp\RSPB8C1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/登陆界面.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\TUT\C\学生管理系统V4\aadlg.cpp"
+"D:\TUT\C\学生管理系统V4\tcdlg.cpp"
+"D:\TUT\C\学生管理系统V4\登陆界面Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\zxw\AppData\Local\Temp\RSPB8C1.tmp" 
+Creating temporary file "C:\Users\zxw\AppData\Local\Temp\RSPB8C2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/登陆界面.pdb" /machine:I386 /out:"Release/登陆界面.exe" 
+".\Release\aadlg.obj"
+".\Release\StdAfx.obj"
+".\Release\tcdlg.obj"
+".\Release\登陆界面.obj"
+".\Release\登陆界面Dlg.obj"
+".\Release\登陆界面.res"
+]
+Creating command line "link.exe @C:\Users\zxw\AppData\Local\Temp\RSPB8C2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+aadlg.cpp
+tcdlg.cpp
+登陆界面Dlg.cpp
+D:\TUT\C\学生管理系统V4\登陆界面Dlg.cpp(203) : warning C4101: 'i' : unreferenced local variable
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+登陆界面.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
